@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="Front End Developer Portfolio" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta name="author" content="Victor Urvantsev">
+    <meta charset="utf-8">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <title>Portfolio Front End Development</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400">
+    <script>
+        // Picture element HTML5 shiv
+        document.createElement("picture");
+    </script>
+    <script src="js/picturefill.min.js" async></script>
+</head>
+
+<body>
+    <header class="right">
+        <img class="logo" src="images/udacity_logo.svg" alt="Udacity Logo">
+        <h1 class="uppercase normal">victor urvantsev</h1>
+        <h3 class="uppercase normal">kitten ninja</h3>
+    </header>
+    <section class="main_img_section">
+        <picture>
+            <source media="(min-width: 680px)" srcset="images/rsz_code-1280.jpg" />
+            <source media="(min-width: 360px)" srcset="images/rsz_code-680.jpg" />
+            <img class="main_image" src="images/rsz_code-360.jpg" alt="Code Photo">
+        </picture>
+    </section>
+    <section class="other_works">
+        <h2 class="center uppercase normal">featured kittens</h2>
+        <section class="featured">
+            <figure class="kitten">
+                <picture>
+                    <source media="(min-width: 360px)" srcset="images/kitty_night1-680.jpg" />
+                    <img class="kitten_img" src="images/kitty_night1-360.jpg" alt="Cute kitten">
+                </picture>
+                <figcaption>
+                    <h3 class="uppercase normal">playing</h3>
+                    <a class="grey" href="http://www.wikihow.com/Play-With-a-Kitten">How to play with a Kitten</a>
+                </figcaption>
+            </figure>
+            <figure class="kitten">
+                <picture>
+                    <source media="(min-width: 360px)" srcset="images/kitty_night2-680.jpg" />
+                    <img class="kitten_img" src="images/kitty_night2-360.jpg" alt="Cute kitten">
+                </picture>
+                <figcaption>
+                    <h3 class="uppercase normal">understanding</h3>
+                    <a class="grey" href="http://www.realsimple.com/work-life/family/pets/cat-behavior">Understanding Your Kitten</a>
+                </figcaption>
+            </figure>
+            <figure class="kitten">
+                <picture>
+                    <source media="(min-width: 360px)" srcset="images/kitty_night3-680.jpg" />
+                    <img class="kitten_img" src="images/kitty_night3-360.jpg" alt="Cute kitten">
+                </picture>
+                <figcaption>
+                    <h3 class="uppercase normal">relaxing</h3>
+                    <a class="grey" href="http://www.wikihow.com/Teach-Your-Kitten-to-Be-Calm-and-Relaxed">3 Ways to Calm down your Kitten</a>
+                </figcaption>
+            </figure>
+        </section>
+    </section>
+</body>

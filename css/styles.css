@@ -1,0 +1,120 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 1024px;
+    margin: 0 auto 0 auto;
+}
+
+h1 {
+    font-size: 5vmin;
+    margin: 0;
+}
+
+h2 {
+    font-size: 4vmin;
+    margin: 5% 0 5% 0;
+}
+
+h3 {
+    font-size: 3.2vmin;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 3vmin;
+}
+
+
+/*Decorations*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.right {
+    text-align: right;
+}
+
+.grey {
+    color: grey;
+}
+
+
+/*Header*/
+
+header {
+    border-bottom: 2px solid #7d97ad;
+    padding: 1%;
+}
+
+.logo {
+    color: #02b3e4;
+    float: left;
+    height: 8vmin;
+}
+
+
+/*Main*/
+
+.main_img_section {
+    padding-top: 5%;
+}
+
+.main_image {
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+/*Bottom*/
+
+.other_works {
+    margin-top: 5%;
+}
+
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.kitten {
+    min-width: 300px;
+    width: 30%;
+    margin: 10px;
+}
+
+.kitten_img {
+    width: 100%;
+}
+
+
+/*Media*/
+
+@media screen and (min-width: 1024px) {
+    .main_img_section {
+        height: 85vh;
+    }
+    header {
+        height: 15vh;
+    }
+    h2 {
+        text-align: left;
+    }
+}
