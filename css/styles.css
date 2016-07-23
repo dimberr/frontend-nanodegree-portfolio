@@ -11,23 +11,23 @@ body {
 }
 
 h1 {
-    font-size: 5vmin;
-    margin: 0;
+    font-size: 5vmin !important;
+    margin: 0 !important;
 }
 
 h2 {
-    font-size: 4vmin;
-    margin: 5% 0 5% 0;
+    font-size: 4vmin !important;
+    margin: 5% 0 5% 0 !important;
 }
 
 h3 {
-    font-size: 3.2vmin;
-    margin: 0;
+    font-size: 3.2vmin !important;
+    margin: 0 !important;
 }
 
 a {
     text-decoration: none;
-    font-size: 3vmin;
+    font-size: 3vmin !important;
 }
 
 
@@ -42,7 +42,7 @@ a {
 }
 
 .normal {
-    font-weight: normal;
+    font-weight: normal !important;
 }
 
 .right {
